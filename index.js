@@ -11,7 +11,7 @@ app.use(express.static("public"));
 // });
 
 app.get("/*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "index.html"));
+  res.sendFile(path.resolve(__dirname, "api", "index.html"));
 });
 
 // index.js
