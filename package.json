@@ -2,12 +2,12 @@
   "name": "express-router-check",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engine": {
     "node": "14.x"
   },
   "scripts": {
-    "test": "node server.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
